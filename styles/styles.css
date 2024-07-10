@@ -1,0 +1,360 @@
+
+
+.azeret-mono-dfont {
+  font-family: "Azeret Mono", monospace;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* main style */
+
+main {
+    max-width: 1280px;
+    margin: 0px auto;
+}
+
+/* Nav Styles */
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 150px;
+}
+
+.main-color {
+    color: #0D1321;
+}
+
+/* shared styles */
+
+.nt1{
+    font-weight: 800;
+    font-size: 28px;
+    color: #0D1321;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.DR {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: #0D1321;
+    padding: 17px;
+    margin-left: 768px;
+    border-radius: 8px;
+    border-color: #0D1321;
+    border: 2px solid #0D1321;
+    cursor: pointer;
+}
+
+/* Hero Section */
+
+.grp-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 240px;
+}
+
+.banner {
+    background-image: url(../assets/Hero-bg.png);
+    background-size: cover;
+    background-position: center;
+    padding-top: 26px;
+    padding-bottom: 53px;
+}
+
+.headline1 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #0D1321;
+    text-align: center;
+    line-height: 68px;
+}
+
+.description1 {
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    align-items: center;
+    margin: -40px 294px;
+}
+
+.btn-h2 {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    display: block;
+    background-color: #0D1321;
+    color: #ffffff;
+    padding: 21px 24px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 72px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+.feedback {
+    text-decoration: none;
+    color: #ffffff;
+}
+
+.section-tittle {
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    text-align: center;
+}
+
+.sec-des {
+    font-size: 16px;
+    text-align: center;
+    line-height: 26px;
+    align-items: center;
+}
+
+/* why-web-dev */
+
+.lm-content {
+    display: flex;
+    background-image: linear-gradient(to right, rgb(255, 255, 255) , #fafafa);
+    max-width: 946px;
+    justify-content: space-between;
+    margin: 48px 0px;
+    padding: 48px;
+    border-radius: 8px;
+}
+
+.lm-content-b {
+    display: flex;
+    background-image: linear-gradient(to left, rgb(255, 255, 255) , #fafafa);
+    max-width: 946px;
+    justify-content: space-between;
+    margin: 48px 0px;
+    padding: 48px;
+    border-radius: 8px;
+}
+
+.why-web-dev {
+    background-color: #fafafa;
+    border-radius: 16px;
+    max-width: 1140px;
+    padding: 80px;
+    margin: 70px 0px;
+}
+
+
+.lm1 {
+    margin-left: 50px;
+}
+
+.lmh {
+    font-size: 24px;
+    color: #0D1321;
+}
+
+.lmp {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.lmb {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: #0D1321;
+    padding: 12px 20px;
+    border-color: #0D1321;
+    border: 2px solid #0D1321;
+    cursor: pointer;
+}
+
+.lmimg {
+    height: 240px;
+}
+
+/* Video Styles */
+
+.video {
+    margin-top: 50px;
+    border: 1px solid #eeeeee;
+    border-radius: 16px;
+    display: flex;
+    justify-content: center;
+    padding: 32px;
+}
+.yvideo {
+    height: 550px;
+    width: 1270px;
+    border-radius: 16px;
+}
+
+/* next target */
+
+.section-tittle-n {
+    margin-top: 151px;
+    font-size: 32px;
+    font-weight: bolder;
+    color: #0D1321;
+    text-align: center;
+}
+
+.parent {
+    display: flex;
+    margin-top: 48px;
+}
+
+.h4-title {
+    font-size: 24px;
+    font-weight: bolder;
+}
+
+.sec-sec {
+    font-size: 16px;
+}
+
+.lms3 {
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    font-weight: 800;
+    background-color: rgba(255, 255, 255, 0);
+    border: none;
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0px;
+}
+
+.html {
+    background-color: #ff4b1e0c;
+    border-radius: 16px;
+    padding: 40px;
+    margin-right: 24px;
+}
+
+.css {
+    background-color: #004de80c;
+    border-radius: 16px;
+    padding: 40px;
+    margin-right: 24px;
+}
+
+.javascript {
+    background-color: #ffdd000c;
+    border-radius: 16px;
+    padding: 40px;
+}
+
+.list {
+    display: flex;
+    height: 160px;
+    border-radius: 16px;
+    border: 1px solid #eeeeee;
+    margin-bottom: 24px;
+    padding: 40px;
+}
+
+.list-img1 {
+    height: 80px;
+    display: block;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 40px;
+}
+
+.h4-title-list {
+    font-size: 24px;
+    margin-bottom: 8px;
+}
+
+.des-list {
+    font-size: 16px;
+    margin-bottom: 24px;
+}
+
+.bg-support {
+    background-image: linear-gradient(0deg, rgba(0, 0, 0, 0.466), rgba(0, 0, 0, 0.473)), url(../assets/handshake.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 260px;
+    border-radius: 16px;
+    padding: 64px;
+    margin-bottom: 112px;
+}
+
+.support-head3 {
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.support-des {
+    font-size: 16px;
+    color: #ffffff;
+    text-align: center;
+}
+
+form {
+    margin-top: 24px;
+    display: block;
+    text-align: center;
+}
+
+.support-input {
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+    height: 57px;
+    width: 548px;
+    border-radius: 8px;
+    padding: 0px 20px;
+    border: none;
+}
+::placeholder {
+    font-family: "Azeret Mono", monospace;
+    font-size: 16px;
+}
+
+.btn-submit {
+    font-family: "Azeret Mono", monospace;
+    font-size: 20px;
+    font-weight: 600;
+    background-color: white;
+    color: #0D1321;
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+}
+
+footer {
+    height: 36px;
+    background-color: #0d13211c;
+    padding: 32px 300px;
+    background-size: cover;
+    border-radius: 0px 16px;
+}
+
+footer div p {
+    display: inline;
+    font-size: 20px;
+    font-weight: 600;
+    margin: 0px;
+}
+
+.icons {
+    display: inline;
+    position: absolute;
+    right: 300px;
+}
+
+.icons a {
+    padding: 10px;
+}
